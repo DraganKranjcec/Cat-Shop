@@ -1,0 +1,431 @@
+body{
+background-color: #BAA8F7;
+margin: 0px;
+
+}
+
+.up{
+    
+height: 80px;
+width: 100%;
+background-color: #86A6DF;
+}
+
+.name{
+height: 100%;
+width: 24%;
+background-image: url('catshop.png');
+background-size: cover;
+background-repeat: no-repeat;
+display:flex;
+ justify-content: center;
+align-items: center;
+font-size: 40px;
+
+
+}
+
+
+.nav ul {
+    margin-top: 5px;
+    padding-right:400px;
+    padding-left:0px;
+    
+    height: 80px;
+    width: 900px;
+float: right;
+margin-right: 100px;
+text-align: center;
+justify-content: center; 
+}
+
+.nav ul li{
+
+    display: inline-block;
+    list-style: none;
+   margin-right:15px;
+
+    padding-right: 50px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left:50px;
+    justify-content: center;
+    border-radius: 20px;
+    transition: ease-in-out 0.3s;
+}
+.nav a{
+    font-size: 25px;  
+    color: black;
+    font-family: 'Rubik Gemstones', cursive;
+font-family: 'Rubik Spray Paint', cursive;
+text-decoration: none;    
+}
+
+
+.nav li:hover{
+    background-color: rgba(28, 56, 121, 0.6);
+}
+
+.nav a:hover{
+
+text-decoration-line: underline;
+color: beige;
+
+ }
+
+.main{
+
+width: 100%;
+height: 500px;
+display: inline-block;
+
+}
+
+.catshark{
+    
+float:right;
+height: 500px;
+width: 600px;
+background-image: url('cat.png');
+background-size: 500px 500px;
+margin-right:180px;
+border-bottom: 3px dotted black;
+background-repeat: no-repeat;
+}
+
+
+.text{
+
+    padding: 5px 20px;
+margin-top:200px;
+margin-left:100px;
+height: 150px;
+width: 700px;
+font-size: 20px;
+    float: left;
+    text-align: center;
+    background-color: #8462F9;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-weight: bold;
+}
+
+
+
+.cards{
+width: 100%;
+height: 700px;
+display: flex;
+justify-content: space-between;
+
+}
+.cards .cat1{
+background-image: url('cat1.png');
+margin-left: 35px;
+}
+.cards .cat2{
+  
+    background-image: url('cat2.png');   
+
+}.cards .cat3{        
+        background-image: url('cat3.png');       
+        
+ }.cards .cat4{
+            margin-right: 35px;
+            background-image: url('cat4.png');
+               
+}
+
+#meow{
+ margin-top: 50px;
+height: 500px;
+width: 19%;
+
+background-size: cover ;
+background-repeat: no-repeat;
+ margin-bottom: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 12px -5px 15px 5px #80C7FF, -10px -7px 27px 1px #8E5CFF, -12px 5px 23px 24px rgba(0,0,0,0); 
+box-shadow: 12px -5px 15px 5px #80C7FF, -10px -7px 27px 1px #8E5CFF, -12px 5px 23px 24px rgba(0,0,0,0);
+    transition: ease-in-out 0.3s;
+
+}
+
+
+.cat1:hover{transform: scale(1.1) rotate(5deg);}
+.cat2:hover{transform: scale(1.3) rotate(-5deg);}
+.cat3:hover{transform: scale(1.3) rotate(10deg);}
+.cat4:hover{transform: scale(1.1) rotate(-5deg);}
+
+    /* ------------------------------Home end--------------------------------------- */
+
+
+
+.dimenzije{
+margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+    
+}
+
+
+#itm{
+
+    margin-top: 50px;
+    height: 500px;
+    width: 19%;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: white;
+    background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+}
+
+.dimenzije .itm1{
+background-image: url('catfood.png');
+}
+.dimenzije .itm2{
+    background-image: url('scratch.png');    
+    }
+    .dimenzije .itm3{
+        background-image: url('mouse.png');
+        }
+
+        .dimenzije .itm4{
+            background-image: url('bowl.png')
+        }
+
+
+.dugmad{
+
+
+width: 100%;
+height:70px;
+
+}
+
+#dgm{
+
+    padding:25px 70px;
+border-radius: 40px;
+text-transform: uppercase;
+font-weight: bold;
+cursor: pointer;
+background-color: #8462F9;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+    transition: ease-in-out 0.2s;
+}
+ .btn1{
+    margin-left: 110px;
+  
+    margin-right: 240px;
+ }
+
+ .btn2{
+
+margin-right:230px;
+
+ }
+ .btn3{
+    margin-right: 240px;
+ }
+ #dgm:hover{
+background-color: #80C7FF;
+
+ }
+
+
+
+/*  ------------------------------------------------------------------------------------------ */
+
+
+
+#Contact {
+
+background-image:url('peekaboo.png');
+background-size: cover;
+
+
+}
+
+
+
+input:focus, textarea:focus{
+    outline:none;
+}
+
+form{
+    margin: 80px auto auto auto;
+    padding:20px;
+    border-radius: 150px;
+    max-width: 900px;
+    max-height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+    
+
+
+    background-color: rgba(132, 98, 249, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.contact{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+::placeholder{
+
+color: rgb(68, 25, 133);
+
+}
+
+
+input{
+    width: 100%;
+    padding-top:20px;
+    display: flex;
+    border:none;
+    background:none;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea{
+    width: 100%;
+    padding-top:20px;
+    display: flex;
+    border:none;
+    background:none;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    min-width: 200px;
+    max-width: 900px;
+    min-height: 60px;
+}
+
+.dugme{
+    position:relative;
+    left: 35%;
+    margin-top: 20px;
+    width: 240px;
+    height: 80px;
+    font-size: 25px;
+    background-color: #2b036b;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    color: beige;
+}
+
+.dugme:hover{
+    border-radius: 25px;
+    background-color: #3083a1;
+    transform: rotate(10deg);
+}
+
+
+
+#kat{
+
+border:none;
+padding: 10px 10px;
+margin-top: 100px;
+margin-left: 700px;
+border-radius: 100px;
+background-color: #86A6DF;
+font-size: 50px;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+#kat:hover{
+
+background-color:#8E5CFF;
+
+
+}
+
+@media screen and (max-width:420px) {
+
+.up{
+width:100%;
+height:80px;
+display: block;
+}
+
+.name{
+
+width: 100%;
+
+
+}
+
+.text{
+margin-top: auto;
+width:60%;
+height: 420px;
+margin-left: 65px;
+}
+
+
+
+.catshark {
+
+    align-items: center;
+height: 200px;
+width: 200px;
+background-size: cover;
+margin-right: 110px;
+}
+
+
+.up ul{
+    display: none;
+   
+
+}
+
+.cards{
+
+margin-top: 160px;
+display: block;
+margin-right:0;
+
+}
+
+#meow{
+
+width:200px;
+height: 260px;
+
+}
+
+.cards .cat1{
+
+margin-left: 0px;
+
+}
+
+.cat1:hover{transform: scale(1.5) translateX(75px) ;}
+.cat2:hover{transform: scale(1.5) translateX(75px);}
+.cat3:hover{transform: scale(1.5) translateX(75px);}
+.cat4:hover{transform: scale(1.5) translateX(75px);}
+}
+
+
+
+
